@@ -1,6 +1,6 @@
 {
-  "name": "@henrypalacios/eslint-config",
-  "version": "0.1.1",
+  "name": "eslint-config-henryp",
+  "version": "0.1.0",
   "description": "Custom ESLint and Prettier configuration",
   "main": "index.js",
   "scripts": {
