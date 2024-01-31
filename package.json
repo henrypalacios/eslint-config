@@ -1,0 +1,39 @@
+{
+  "name": "@henrypalacios/eslint-config",
+  "version": "0.1.0",
+  "description": "Custom ESLint and Prettier configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrypalacios/eslint-config.git"
+  },
+  "keywords": [
+    "custom-eslint"
+  ],
+  "author": "Henry Palacios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henrypalacios/eslint-config/issues"
+  },
+  "homepage": "https://github.com/henrypalacios/eslint-config#readme",
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/eslint-parser": "^7.23.10",
+    "@types/node": "^20.11.14",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
+  }
+}
